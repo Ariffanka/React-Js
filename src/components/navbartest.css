@@ -1,0 +1,13 @@
+/* Di dalam file CSS Anda */
+.logo {
+    max-width: 100px; /* Ubah ukuran maksimum sesuai keinginan Anda */
+    height: auto;
+  }
+  
+  /* Gunakan media query untuk mengatur ukuran logo ketika lebar layar tertentu */
+  @media (max-width: 768px) {
+    .logo {
+      max-width: 60px; /* Ubah ukuran maksimum sesuai keinginan Anda */
+    }
+  }
+  
